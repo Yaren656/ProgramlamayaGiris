@@ -1,18 +1,10 @@
-dolarDun = 7.65
-dolarBugun = 7.75
 
-if dolarDun > dolarBugun:
-    print("Azalış oku")
-    print("Bitti")
-elif dolarDun< dolarBugun:
-    print("Artış oku")
-else:
-    print("Eşittir oku")
-    
-print("Bitti")
+# definition, fonksiyon tanımlama
+def kredileriListele(): 
+    krediler = ["Hızlı Kredi", "Maaşını Halkbank'tan Alanlara Özel", "Mutlu Emekli İhtiyaç Kredisi"]
+    x = 0
+    for kredi in krediler: #döngü türü, o anki listede gezdiğine verdiğimiz takma isim "kredi", alias.
+        print(f"{x+1}. kredi :  {kredi}")
+        x += 1   # yukarıdaki kodlar sadece fonksiyonun tanımı, aşağıdaki yoksa çıktı alamam.
 
-#if dolarDun<dolarBugun:
-    #print("Artış oku")
-
-#if dolarDun==dolarBugun:
-    #print("Eşittir oku")
+kredileriListele() # burası fonksiyonu çağırdığım yer, istediğim kadar fazl sayfada/yerde çağırabilirim.
