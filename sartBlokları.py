@@ -15,16 +15,16 @@ l = 20
 m = 30
 
 if k>l and k>m:
-    print(k, "değeri hepsinin en büyüktür.")
+    print(k, "değeri hepsinin en büyüğüdür.")
 elif l>k and l>m:
-    print(l,"değeri hepsinin en büyüktür.")
+    print(l,"değeri hepsinin en büyüğüdür.")
 else:
     print(m, "değeri hepsinin en büyüğüdür.")
 
 if k<l and k<m:
-    print(k, "değeri hepsinin en küçüktür.")
+    print(k, "değeri hepsinin en küçüğüdür.")
 elif l<k and l<m:
-    print(l,"değeri hepsinin en küçüktür.")
+    print(l,"değeri hepsinin en küçüğüdür.")
 else:
     print(m, "değeri hepsinin en küçüğüdür.")
 
