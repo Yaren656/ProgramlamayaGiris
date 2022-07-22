@@ -16,7 +16,3 @@ print("Bitti")
 
 #if dolarDun==dolarBugun:
     #print("Eşittir oku")
-
-
-
-
